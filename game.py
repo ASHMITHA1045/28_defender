@@ -21,7 +21,7 @@ def sky_color(wave):
 
 def on_humanoid_rescued(humanoid):
     """Called when the player catches a falling humanoid; add a bonus or celebration here."""
-    pass
+    print("Humanoid rescued! +500 points!")
 
 
 def bonus_life_threshold():
